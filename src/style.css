@@ -1,5 +1,76 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+/* Body styling */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  padding-top: 50px;
+}
 
-body{
-    background: white;
+/* Page heading */
+h1 {
+  color: #0078d4;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Counter text */
+#domainCount {
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+/* Domain list container */
+#domainList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Each domain card */
+.domain-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect on domain cards */
+.domain-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Domain links */
+.domain-item a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Hover effect on links */
+.domain-item a:hover {
+  text-decoration: underline;
+}
+
+/* Generate button styling */
+#generateBtn {
+  display: block;
+  margin: 30px auto 0 auto;
+  font-weight: 600;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+#generateBtn:hover {
+  background-color: #005a9e;
+  transform: scale(1.05);
 }
