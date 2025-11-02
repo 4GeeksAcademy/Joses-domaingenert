@@ -8,30 +8,30 @@ body {
   padding-top: 50px;
 }
 
-/* Page heading */
+.neon-text{
+  background-color: lightblue;
+}
 h1 {
   color: #0078d4;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* Counter text */
-#domainCount {
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #555;
+body{
+  background-color:lightslategrey;
 }
 
-/* Domain list container */
+ 
 #domainList {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  color:blue
 }
 
-/* Each domain card */
+ 
 .domain-item {
   background-color: #ffffff;
   border-radius: 10px;
@@ -40,13 +40,13 @@ h1 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* Hover effect on domain cards */
+ 
 .domain-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Domain links */
+ 
 .domain-item a {
   text-decoration: none;
   color: #0078d4;
@@ -54,12 +54,12 @@ h1 {
   font-size: 16px;
 }
 
-/* Hover effect on links */
+ 
 .domain-item a:hover {
   text-decoration: underline;
 }
 
-/* Generate button styling */
+ 
 #generateBtn {
   display: block;
   margin: 30px auto 0 auto;
@@ -73,4 +73,8 @@ h1 {
 #generateBtn:hover {
   background-color: #005a9e;
   transform: scale(1.05);
+}
+
+.container {background-color:white
+  ;
 }
